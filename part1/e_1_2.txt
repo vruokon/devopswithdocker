@@ -1,0 +1,9 @@
+viljami at kone in ~/D/d/part1 (master|…1)
+» sudo docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+viljami at kone in ~/D/d/part1 (master|…1)
+» sudo docker images 
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+viljami at kone in ~/D/d/part1 (master|…1)
+» 
+

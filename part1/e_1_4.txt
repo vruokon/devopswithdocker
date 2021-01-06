@@ -1,0 +1,16 @@
+1. docker pull  devopsdockeruh/exec_bash_exercise
+2. docker run -d --rm -it --name harjoitus devopsdockeruh/exec_bash_exercise
+3. docker exec -it harjoitus bash
+
+#inside container
+4. root@c64263ae3e8c:/usr/app# tail -f ./logs.txt
+output:
+Sat, 02 Jan 2021 13:49:51 GMT
+Secret message is:
+"Docker is easy"
+Sat, 02 Jan 2021 13:49:57 GMT
+Sat, 02 Jan 2021 13:50:00 GMT
+Sat, 02 Jan 2021 13:50:03 GMT
+Sat, 02 Jan 2021 13:50:06 GMT
+Secret message is:
+"Docker is easy"
