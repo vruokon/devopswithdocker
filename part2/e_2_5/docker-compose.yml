@@ -1,0 +1,19 @@
+version: '3.5'
+
+services:
+    backend:
+        image: dmlsamftaq/backend-exercise
+        ports:
+            - 8000:8000
+        environment:
+            - REDIS=redis
+        depends_on:
+          - redis
+    frontend:
+        image: dmlsamftaq/frontend-exercise
+        ports:
+            - 5000:5000
+    redis:
+        image: redis
+        container_name: 'redis'
+
